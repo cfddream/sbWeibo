@@ -1,0 +1,16 @@
+{
+  "name": "sbWeibo",
+  "version": "0.0.1",
+  "homepage_url": "https://github.com/cfddream/sbWeibo",
+  "manifest_version": 2,
+  "minimum_chrome_version": "23",
+  "description": "Change \"V\" icon to \"SB\" icon for Sina Weibo.",
+  "permissions": [ "http://www.weibo.com/" ],
+  "content_scripts": [
+    {
+      "matches": ["http://*.weibo.com/*"],
+      "js": ["main.js"],
+      "run_at": "document_start"
+    }
+  ]
+}
