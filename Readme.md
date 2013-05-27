@@ -1,5 +1,5 @@
-sbWeibo - sbWeibo's Chrome extension.
-----------------------------------
+sbWeibo Chrome extension.
+-------------------------
 
 ## Chrome Webstore
   https://chrome.google.com/webstore/detail/sbweibo/fninbpclkkoegkebkpjnalcjbdhpccbb
